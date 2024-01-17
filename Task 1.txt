@@ -1,0 +1,28 @@
+# Task 1
+num = int(input("Your First Number"))
+num1 = int(input("Your Second Number"))
+sum = int(num + num1)
+print("Sum of your number is:",sum)
+# Task 2
+num = int(input("Your Numerator"))
+num1 = int(input("Your Denominator"))
+mul = int(num/num1)
+print("Your Answer is :",mul)
+# Task 3
+num = int(input("Enter Base of the triangle"))
+num1 = int(input("Enter Height of the triangle"))
+Area = int(1/2*num*num1)
+print("Area of the triangle is",Area)
+# Task 4
+tem = int(input("Enter temperature in celsius"))
+con = 9/5*tem+32
+print("Your temperature in celsius is equal to:",con)
+# Task 5
+A = type(int("Your value"))
+print(A)
+B = type(float("Your value"))
+print(B)
+C = type("Abuzar")
+print(C)
+D = type(True)
+print(D)
